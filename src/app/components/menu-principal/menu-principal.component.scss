@@ -1,0 +1,16 @@
+@import '../../../styles.scss';
+
+nav{
+    background-color: $corPrincipal;
+    color: $corTextoClaro
+}
+.dropdown-content li > a, .dropdown-content li > span{
+    color: $corTexto;
+    font-size: 1.6em;
+}
+.sidenav li > a{
+    color: $corTexto
+}
+.dropdown-content li > a > i, .dropdown-content li > span > i {
+    font-size: .8em;
+}
